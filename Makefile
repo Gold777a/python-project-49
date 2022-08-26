@@ -2,7 +2,7 @@ install: #обновление зависимостей
 	poetry install
 
 brain-games: #запуск проекта через make
-	poetry run brain-game
+	poetry run brain-games
 
 build: #сборка проекта
 	poetry build
