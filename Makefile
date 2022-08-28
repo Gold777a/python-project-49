@@ -4,6 +4,10 @@ install: #обновление зависимостей
 brain-games: #запуск проекта через make
 	poetry run brain-games
 
+
+brain-even: #запуск проекта через make
+	poetry run brain-even
+
 build: #сборка проекта
 	poetry build
 
