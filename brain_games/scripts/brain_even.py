@@ -16,7 +16,7 @@ def welcome_new():
         if (dig % 2 == 0 and rez == 'yes') or (dig % 2 != 0 and rez == 'no'):
             print('Correct!')
         else:
-            print(f"'yes' is wrong answer ;(. Correct answer was 'no'.")
+            print('\'yes\' is wrong answer ;(. Correct answer was \'no\'.')
             exit()
     print(f'Congratulations, {name}')
 
@@ -27,4 +27,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
