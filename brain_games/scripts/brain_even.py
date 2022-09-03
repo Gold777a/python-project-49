@@ -2,6 +2,8 @@
 
 import random
 import prompt
+import sys
+from brain_games.games.even import welcome_even
 
 
 def welcome_new():
@@ -9,15 +11,7 @@ def welcome_new():
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    for j in range(3):
-        dig = random.randint(1, 100)
-        print(f'Question: {dig}')
-        rez = prompt.string('Your answer: ')
-        if (dig % 2 == 0 and rez == 'yes') or (dig % 2 != 0 and rez == 'no'):
-            print('Correct!')
-        else:
-            print('\'yes\' is wrong answer ;(. Correct answer was \'no\'.')
-            exit()
+    welcome_even()
     print(f'Congratulations, {name}')
 
 

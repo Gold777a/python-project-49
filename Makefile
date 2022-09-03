@@ -8,6 +8,9 @@ brain-games: #запуск проекта через make
 brain-even: #запуск проекта через make
 	poetry run brain-even
 
+brain-calc:
+	poetry run brain-calc
+
 build: #сборка проекта
 	poetry build
 
