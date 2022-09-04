@@ -8,3 +8,5 @@ https://asciinema.org/a/uK2vNUyrRueAdP13YQXJOsqCT
 https://asciinema.org/a/750bCjJBpOje56Ohw1eyjcXDg
 ### View record brain-progression:
 https://asciinema.org/a/TehOx5Bar0faLwWxafF1a72a8
+### View record brain-progression:
+https://asciinema.org/a/FjOPxzvmxhcS2NLToTjWcxl6p
