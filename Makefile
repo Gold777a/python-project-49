@@ -11,6 +11,9 @@ brain-even: #запуск проекта через make
 brain-calc:
 	poetry run brain-calc
 
+brain-gcd:
+	poetry run brain-gcd
+
 build: #сборка проекта
 	poetry build
 
