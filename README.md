@@ -6,3 +6,5 @@ https://asciinema.org/a/PJw47H5lb15NbPw0ZAvIpt0nJ
 https://asciinema.org/a/uK2vNUyrRueAdP13YQXJOsqCT
 ### View record brain-gcd:
 https://asciinema.org/a/750bCjJBpOje56Ohw1eyjcXDg
+### View record brain-progression:
+https://asciinema.org/a/TehOx5Bar0faLwWxafF1a72a8
