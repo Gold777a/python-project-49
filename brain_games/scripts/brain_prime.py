@@ -10,7 +10,7 @@ def welcome_all():
     print('Hello, {0}!'.format(name))
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     welcome_prime()
-    print('Congratulations, {0}'.format(name))
+    print('Congratulations, {0}!'.format(name))
 
 
 def main():

@@ -10,7 +10,7 @@ def welcome_new():
     print(f'Hello, {name}!')
     print('Answer "yes" if the number is even, otherwise answer "no".')
     welcome_even()
-    print(f'Congratulations, {name}')
+    print(f'Congratulations, {name}!')
 
 
 def main():

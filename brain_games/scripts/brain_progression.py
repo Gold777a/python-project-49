@@ -10,7 +10,7 @@ def welcome_all():
     print('Hello, {0}!'.format(name))
     print('What number is missing in the progression?')
     welcome_progression()
-    print('Congratulations, {0}'.format(name))
+    print('Congratulations, {0}!'.format(name))
 
 
 def main():

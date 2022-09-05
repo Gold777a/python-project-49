@@ -10,7 +10,7 @@ def welcome_all():
     print('Hello, {0}!'.format(name))
     print('Find the greatest common divisor of given numbers.')
     welcome_gcd()
-    print('Congratulations, {0}'.format(name))
+    print('Congratulations, {0}!'.format(name))
 
 
 def main():

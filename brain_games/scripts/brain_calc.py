@@ -10,7 +10,7 @@ def welcome_all():
     print('Hello, {0}!'.format(name))
     print('What is the result of the expression?')
     welcome_calc()
-    print('Congratulations, {0}'.format(name))
+    print('Congratulations, {0}!'.format(name))
 
 
 def main():
