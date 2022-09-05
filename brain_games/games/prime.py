@@ -22,5 +22,6 @@ def welcome_prime():
             print('Correct!')
             cnt -= 1
         else:
-            print('{0} is wrong answer ;(. Correct answer was {1}.'.format(rez, good_value))
+            print('{0} is wrong answer ;(. Correct answer was {1}.'.
+                  format(rez, good_value))
             return 0
