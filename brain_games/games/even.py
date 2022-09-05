@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import random
 import prompt
 import sys
@@ -15,6 +13,7 @@ def welcome_even():
         else:
             print('\'yes\' is wrong answer ;(. Correct answer was \'no\'.')
             sys.exit()
+
 
 def main():
     welcome_even()

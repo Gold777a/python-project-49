@@ -3,6 +3,7 @@
 import prompt
 from brain_games.games.gcd import welcome_gcd
 
+
 def welcome_all():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
@@ -10,6 +11,7 @@ def welcome_all():
     print('Find the greatest common divisor of given numbers.')
     welcome_gcd()
     print('Congratulations, {0}'.format(name))
+
 
 def main():
     welcome_all()

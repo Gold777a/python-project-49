@@ -3,6 +3,7 @@
 import prompt
 from brain_games.games.prime import welcome_prime
 
+
 def welcome_all():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
@@ -10,6 +11,7 @@ def welcome_all():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     welcome_prime()
     print('Congratulations, {0}'.format(name))
+
 
 def main():
     welcome_all()

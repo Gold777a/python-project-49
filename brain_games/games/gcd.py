@@ -12,7 +12,6 @@ def welcome_gcd():
         good_value = gcd(value1, value2)
         print(f'Question: {value1} {value2}')
 
-
         rez = prompt.string('Your answer: ')
 
         if good_value == int(rez):

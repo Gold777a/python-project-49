@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
-import random
 import prompt
-import sys
 from brain_games.games.even import welcome_even
 
 

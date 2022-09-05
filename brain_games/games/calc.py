@@ -27,11 +27,3 @@ def welcome_calc():
         else:
             print('{0} is wrong answer ;(. Correct answer was {1}.'.format(rez, good_value))
             sys.exit()
-
-
-# def main():
-#     welcome_calc()
-#
-#
-# if __name__ == '__main__':
-#     main()
