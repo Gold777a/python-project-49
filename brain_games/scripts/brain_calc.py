@@ -9,8 +9,11 @@ def welcome_all():
     name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(name))
     print('What is the result of the expression?')
-    welcome_calc()
-    print('Congratulations, {0}!'.format(name))
+    rez = welcome_calc()
+    if rez == 0:
+        print('Let\'s try again, {0}!'.format(name))
+    else:
+        print('Congratulations, {0}!'.format(name))
 
 
 def main():

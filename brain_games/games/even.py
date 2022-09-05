@@ -12,7 +12,7 @@ def welcome_even():
             print('Correct!')
         else:
             print('\'yes\' is wrong answer ;(. Correct answer was \'no\'.')
-            sys.exit()
+            return 0
 
 
 def main():

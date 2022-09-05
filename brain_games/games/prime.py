@@ -24,4 +24,4 @@ def welcome_prime():
             cnt -= 1
         else:
             print('{0} is wrong answer ;(. Correct answer was {1}.'.format(rez, good_value))
-            sys.exit()
+            return 0

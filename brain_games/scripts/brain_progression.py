@@ -9,8 +9,11 @@ def welcome_all():
     name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(name))
     print('What number is missing in the progression?')
-    welcome_progression()
-    print('Congratulations, {0}!'.format(name))
+    rez = welcome_progression()
+    if rez == 0:
+        print('Let\'s try again, {0}!'.format(name))
+    else:
+        print('Congratulations, {0}!'.format(name))
 
 
 def main():

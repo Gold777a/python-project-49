@@ -9,8 +9,11 @@ def welcome_all():
     name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(name))
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    welcome_prime()
-    print('Congratulations, {0}!'.format(name))
+    rez = welcome_prime()
+    if rez == 0:
+        print('Let\'s try again, {0}!'.format(name))
+    else:
+        print('Congratulations, {0}!'.format(name))
 
 
 def main():

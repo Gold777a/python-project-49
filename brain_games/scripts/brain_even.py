@@ -9,8 +9,11 @@ def welcome_new():
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    welcome_even()
-    print(f'Congratulations, {name}!')
+    rez = welcome_even()
+    if rez == 0:
+        print('Let\'s try again, {0}!'.format(name))
+    else:
+        print('Congratulations, {0}!'.format(name))
 
 
 def main():

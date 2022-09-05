@@ -9,8 +9,11 @@ def welcome_all():
     name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(name))
     print('Find the greatest common divisor of given numbers.')
-    welcome_gcd()
-    print('Congratulations, {0}!'.format(name))
+    rez = welcome_gcd()
+    if rez == 0:
+        print('Let\'s try again, {0}!'.format(name))
+    else:
+        print('Congratulations, {0}!'.format(name))
 
 
 def main():
