@@ -1,6 +1,5 @@
 import random
 import prompt
-import sys
 
 
 def welcome_calc():

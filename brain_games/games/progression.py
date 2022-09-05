@@ -1,6 +1,5 @@
 from random import randint
 import prompt
-import sys
 
 
 def welcome_progression():
@@ -11,7 +10,7 @@ def welcome_progression():
         stop = randint(5, 12)
         rez = []
 
-        for i in range(start, step*12, step):
+        for i in range(start, step * 12, step):
             if len(rez) < stop:
                 rez.append(i)
 

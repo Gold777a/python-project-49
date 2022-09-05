@@ -1,6 +1,5 @@
 import random
 import prompt
-import sys
 from math import gcd
 
 

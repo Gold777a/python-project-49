@@ -1,6 +1,5 @@
 from random import randint
 import prompt
-import sys
 
 
 def is_prime(x):
