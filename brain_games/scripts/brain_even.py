@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 
-import prompt
 from brain_games.games.even import welcome_even
+from brain_games.scripts.brain_all import single
 
 
 def welcome_new():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    name = single()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     rez = welcome_even()
     if rez == 0:

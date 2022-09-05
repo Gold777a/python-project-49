@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 
-import prompt
 from brain_games.games.gcd import welcome_gcd
+from brain_games.scripts.brain_all import single
 
 
 def welcome_all():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print('Hello, {0}!'.format(name))
+    name = single()
     print('Find the greatest common divisor of given numbers.')
     rez = welcome_gcd()
     if rez == 0:

@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 
-import prompt
 from brain_games.games.progression import welcome_progression
+from brain_games.scripts.brain_all import single
 
 
 def welcome_all():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print('Hello, {0}!'.format(name))
+    name = single()
     print('What number is missing in the progression?')
     rez = welcome_progression()
     if rez == 0:

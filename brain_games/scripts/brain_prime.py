@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 
-import prompt
 from brain_games.games.prime import welcome_prime
+from brain_games.scripts.brain_all import single
 
 
 def welcome_all():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print('Hello, {0}!'.format(name))
+    name = single()
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     rez = welcome_prime()
     if rez == 0:
